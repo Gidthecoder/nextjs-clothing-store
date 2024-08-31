@@ -197,7 +197,7 @@ export default function Home() {
           <div className={`${chatDisplayed? 'block': 'hidden'} flex flex-col bg-blue-900 w-[calc(100vw)] lg:w-[350px] h-[80vh] lg:h-[60vh] p-[5px] rounded-xl`}>
             <div className='p-[10px] text-white'>
               <p className='flex flex-row text-[14px] mb-[10px]'><b className='mr-auto'>Clothing Store Chat</b> <b onClick={()=>{setChatDisplayed(false)}}>X</b></p>
-              <p className='text-[13px] mb-[10px]'>Questions that can't be answered by the chatbot will settled by our customer care</p>
+              <p className='text-[13px] mb-[10px]'>Questions that can&apos;t be answered by the chatbot will settled by our customer care</p>
             </div>
             { /*chats*/ }
             <div className='bg-white pt-[20px] rounded-xl grow'>
@@ -218,7 +218,7 @@ export default function Home() {
                   </div>
                 </div>
                 {/*Chatbot activated */}
-                <div className='text-center text-[12px] mb-[20px]'>You're now talking to the chat bot.</div>
+                <div className='text-center text-[12px] mb-[20px]'>You&apos;re now talking to the chat bot.</div>
               
                 {/*Chat with the user*/}
                 <div className='bg-[rgb(205,245,245)] m-[10px] w-[90%] ml-[auto] rounded-xl'>
